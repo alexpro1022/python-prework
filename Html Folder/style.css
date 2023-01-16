@@ -1,113 +1,225 @@
-
-
-.bigbox {
-    background-color: rgb(242, 241, 241);
-    z-index: -1;
-    
-    margin: auto;
-    margin-top: 200px;
-    width: 30%;
-    border: 1px solid rgb(178, 178, 178);
-    padding-left:10px;
-    padding-right:10px;
-    
-    
-}
-.passwordcontainer {
-    display: flex;
-    margin:auto;
-    padding-left: 5px;
-    
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-.passwordchild {
-    flex: 1;
-    
-    
-}
-.passwordchild a {
-    
-    color:blue;
-}
 
-.New-To-Amazon {
-    margin: auto;
-    width: 30%;
-    text-align: center;
-   
-    
-}
 
-.Create-Account {
-    margin: auto;
-    width: 30%;
-    text-align: center;
-    border: 1px solid rgb(139, 135, 135);
-    background-color: rgb(227, 224, 224);
+body {
+    margin:0px;
+    padding:0px;
+}
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0px;
+    height:25px;
 }
 a {
     text-decoration: none;
-    text-decoration-color: black;
+    color:white;
 }
-.Continue {
-    background-color: yellow;
-    text-align: center;
-    border: solid; 
-    border-width: 1px;
-    padding-top: 5px;
+a:hover {
+    color:aquamarine
+}
+.nav-container {
+    background-color:black;
     
-    margin: auto;
-    margin-top: 15px;
 }
-li a {
-    list-style-type: none;
-    color:blue;
+
+.navbar-list {
+    height:100px;
+    z-index:1;
 }
-li {
-    list-style-type: none;
-}
-.input-container {
+.navbar-item {
     display:flex;
-    justify-content:center;
-    margin: auto;
-}
-
-input {
-    margin: auto;
-    width:100%;
-    margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    z-index:1;
+    
     
 }
 
 
 
 
+.background {
+   z-index: -1;
+   width:100%;
+   
+   margin-top: -100px;
 
-.tiny {
-    margin-top: 100px;
-    border-style: solid;
-    border-width: .5px;
-    border-color: rgb(165, 162, 162);
-    margin-bottom: 75px;
 }
 
-.bottomcontainer {
+.featured-shows {
+    z-index: 1;
     
+    color:orange;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    font-size:3em;
+    margin-top:-300px;
+    font-size:200px;
+    
+}
+
+
+
+
+.date {
+    border:solid 1px black;
+    padding-left:40px;
+    text-align:left;
+    margin-top:50px;
+    margin-bottom:25px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:250px;
+    font-size:25px;
+}
+
+.play-container {
+   display:flex;
+   justify-content: flex-start;
+    margin-bottom:30px;
+    
+}
+
+
+
+.play-item {
+    margin-left:20%;
+    margin-right:20%;
+    display:flex;
+    
+}
+.play-item1 {
+    margin-right:25px;
+    
+}
+
+.play-item2 {
+    margin-top: 30px;
+    margin-bottom:
+    
+}
+.play-item3 a {
+    color:black;
+   
+    
+}
+
+.play-item3 {
+    margin-left:30px;
+    display:flex;
+    flex-direction:row;
+    border: solid 3px black;
+    justify-content: center;
+    background-color:yellow;
+}
+
+.footer-background {
+    background-color: black;
+    color:white;
+
+}
+.footer-container {
+   
+    
+}
+.map {
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:100px;
+    margin-right:50px;
+}
+
+.info-container{
+    display:flex;
+    
+    flex-direction: row;
+    
+    background-color:black;
+
+}
+.info-item {
+    background-color:black;
+    
+    color:white;
+    min-width:20%;
+    text-align:center;
+    
+}
+.infoo {
+    font-size:40px;
+}
+.info1 {
+    margin-top:100px;
+     font-size:
+}
+.info2 {
+    margin-top:100px;
+    
+    
+}
+
+.info3 {
+    margin-top:100px;
+    
+    
+} 
+
+.asd {
+    margin-top:100px;
+}
+.qwe {
+    margin-top:100px;
+}
+.qw {
+    margin-top:100px;
+}
+.divitem {
+    margin-top:100px;
+}
+
+.hi {
+    margin-top:100px;
+}
+.mhm {
+    margin-top:100px;
+}
+.kekw {
+    margin-top:100px;
+}
+.hehe {
+    margin-top:100px;
+}
+.close {
+    margin-top:100px;
+}
+.yep {
+    margin-top:100px;
+}
+.almost{
+    margin-top:100px;
+}
+.DONE{
+    margin-top:100px;
+}
+
+
+
+
+
+/*
+.info1 li {
     display:flex;
     justify-content: center;
-    
-    
 }
-.bottomchild {
-   display:flex;
-   margin:10px;
-   
+.info2 li {
+
 }
 
-.last {
-    display:flex;
-    justify-content:center;
-    padding:5px;
+.info3 li {
+
 }

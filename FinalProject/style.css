@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+}
+.page {
+    
+    background-image: linear-gradient(to bottom right, rgb(241, 241, 241), rgb(23, 59, 223));
+}
+
+.top {
+    text-align:center;
+}
+p a {
+    text-decoration: none;
+    color:black;
+    font-size:3rem;
+}
+
+p {
+    color:black;
+    font-size:3rem;
+}
+.pic {
+    display: flex;
+  justify-content: center;
+  max-height:500px;
+}
+article {
+    display:block;
+}
+.para {
+    margin-left:40px;
+    text-indent:50px;
+    font-size:2rem;
+}
+.middle{
+    text-align: center;
+}
+.container2 {
+    
+}
+.container2 img {
+    width: 100%;
+    height: auto;
+    max-height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+form {
+    margin-left:50px;
+    font-size:2rem;
+}
+
